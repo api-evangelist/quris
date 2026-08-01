@@ -1,8 +1,26 @@
 aid: quris
 name: Quris
-description: 'Quris is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Quris-AI is a Bio-AI company building what it describes as pharma''s first AI safety-prediction
+  platform, aiming to predict which drug candidates will be safe in humans before they reach clinical
+  trials. Its approach couples machine learning with "Patients-on-a-Chip" technology — miniaturized,
+  organ-representative human tissue models that generate automatically-tagged biological data used to
+  train classification algorithms for drug-safety prediction. The company targets the roughly 89% of
+  drugs that fail in clinical trials, seeking to de-risk and accelerate pharmaceutical development.
+  Based in Boston and Tel Aviv, Quris was co-founded with pioneers including Moderna co-founder Robert
+  Langer and Nobel Laureate Aaron Ciechanover. Quris is backed by SoftBank Vision Fund and is profiled
+  in the API Evangelist network as a company lead.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.quris.ai/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/quris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health Tech
+- Bio-AI
+- Drug Discovery
+- Drug Safety
+- Clinical Trials
+- Pharmaceuticals
+- Artificial Intelligence
+- Biotechnology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/quris-domain-security.yml
+- type: Website
+  url: https://www.quris.ai
+- type: About
+  url: https://www.quris.ai/aboutus
+- type: Blog
+  url: https://www.quris.ai/news
+- type: PrivacyPolicy
+  url: https://www.quris.ai/privacypolicy
+- type: Support
+  url: https://www.quris.ai/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
