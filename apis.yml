@@ -9,6 +9,17 @@ description: 'Quris-AI is a Bio-AI company building what it describes as pharma'
   Based in Boston and Tel Aviv, Quris was co-founded with pioneers including Moderna co-founder Robert
   Langer and Nobel Laureate Aaron Ciechanover. Quris is backed by SoftBank Vision Fund and is profiled
   in the API Evangelist network as a company lead.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
